@@ -1,0 +1,17 @@
+ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
+stap_1;A;Borstels afwezig, uiteinde eindigend op een zuignap;;BRANCHIOBDELLIDAE
+stap_1;B;Borstels aanwezig, soms (zelden) habitus met vingervormige kieuwen;stap_2;
+stap_2;A;Kieuwvormige uitgroeiingen aanwezig;;NAIDIDAE partim
+stap_2;B;Geen kieuwvormige uitgroeiingen aanwezig;stap_3;
+stap_3;A;Haarbundels aanwezig op de rugzijde;stap_4;
+stap_3;B;Geen haarbundels aanwezig op de rugzijde;stap_5;
+stap_4;A;Slurfje aanwezig;;LUMBRICULIDAE partim
+stap_4;B;Slurfje afwezig;;PROPAPPIDAE
+stap_5;A;Oogjes aanwezig;stap_6;
+stap_5;B;Oogjes afwezig;stap_7;
+stap_6;A;Lichaam rood gepigmenteerd;;TUBIFICIDAE partim
+stap_6;B;Niet rood gepigmenteerd;;NAIDIDAE partim
+stap_7;A;Lange haarborstels aanwezig;;HAPLOTAXIDAE
+stap_7;B;Lange haarborstels afwezig;stap_8;
+stap_8;A;Zeer kleine worm (<10 mm);;AELOSOMATIDAE
+stap_8;B;Grotere worm;;ENCHYTRAEIDAE

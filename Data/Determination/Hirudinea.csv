@@ -1,0 +1,22 @@
+ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
+stap_1;A;Duidelijk uitspringende zuignappen aanwezig op beide uiteinden van het lichaam;stap_2;
+stap_1;B;Enkel op achterlijf een uitspringende zuignap;stap_6;
+stap_2;A;Lichaam cylindrisch, >5× zo lang als breed;stap_3;
+stap_2;B;Lichaam ellips-/druppelvormig, <5× zo lang als breed;stap_4;
+stap_3;A;Patroon van fijne zwarte vlekjes op rugzijde;;CYSTOBRANCHUS
+stap_3;B;Patroon van lichte vlekken/strepen op rugzijde;;PISCICOLA
+stap_4;A;HEMICLEPSIS-kenmerken;;HEMICLEPSIS
+stap_4;B;6 of meer ogen;stap_5;
+stap_4;C;2 ogen;stap_5b;
+stap_5;A;8 ogen meestal goed onderscheidbaar;;THEROMYZON
+stap_5;B;6 ogen meestal moeilijk onderscheidbaar;;GLOSSIPHONIA
+stap_5b;A;Geen verhoornd schildje, rugzijde met opvallende wratjes;;PLACOBDELLA
+stap_5b;B;Bruinig verhoornd schildje nabij ogen;;HELOBDELLA
+stap_6;A;Lichaam langgerekt spoelvormig;stap_7;
+stap_6;B;Lichaam ellips-/druppelvormig, sterk afgeplat;stap_8;
+stap_7;A;Geslachtsopeningen gescheiden door 5 ringen;;HIRUDO
+stap_7;B;Geslachtsopeningen gescheiden door 4 ringen;;HAEMOPIS
+stap_8;A;Alle ringen van gelijke grootte/breedte;;ERPOBDELLA
+stap_8;B;Niet alle ringen van gelijke grootte/breedte;stap_9;
+stap_9;A;Opvolging brede/smalle ringen onregelmatig;;TROCHETA
+stap_9;B;5e ring van elk segment breder;;DINA

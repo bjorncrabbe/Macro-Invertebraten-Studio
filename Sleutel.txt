@@ -1,0 +1,66 @@
+stap_1;A;1a. Larve behoort tot de suborde Echte Libellen (Anisoptera) -> START PAGINA 1;anisoptera_start;None
+stap_1;B;1b. Larve behoort tot de suborde Juffers (Zygoptera) -> START PAGINA 2;zygoptera_start;None
+anisoptera_start;A;• Vangmasker vlak (plat);vlak_1;None
+anisoptera_start;B;• Vangmasker lepelvormig (hol);lepel_1;None
+vlak_1;A;• Vangmasker rechthoekig plat; antenne fijn draadvormig;vlak_2;None
+vlak_1;B;• Vangmasker ruit- of driehoekig plat; antenne dik/kort of knotsvormig;vlak_3;None
+vlak_2;A;• Ogen groot, halfbolvormig uitpuilend aan de zijkanten van de kop;None;AESHNA
+vlak_2;B;• Ogen zeer groot, langgerekt, bijna sluitend op het achterhoofd;None;ANAX
+vlak_3;A;• Rugknobbel of doorn op abdomen zwak ontwikkeld of afwezig; einde van labiale palp haakvormig;None;GOMPHUS
+vlak_3;B;• Rugknobbel of doorn op abdomen goed ontwikkeld; einde van labiale palp recht afgestand;vlak_4;None
+vlak_4;A;• Zijdoorn aanwezig op abdomen-segment 6;None;ONYCHOGOMPHUS
+vlak_4;B;• Geen zijdoorn aanwezig op abdomen-segment 6;None;OPHIOGOMPHUS
+lepel_1;A;• Rand van labiale palpen met onregelmatige, zeer diepe uitsnijdingen (getand);None;CORDULEGASTER
+lepel_1;B;• Rand van labiale palpen met regelmatige, ondiepe uitsnijdingen of glad;lepel_2;None
+lepel_2;A;• Middendoorn/tand aanwezig aan de binnenbasis van het vangmasker;lepel_3;None
+lepel_2;B;• Geen middendoorn of tand aanwezig aan de binnenbasis van het vangmasker;lepel_5;None
+lepel_3;A;• Zijdoornen op abdomen erg groot; zijdoorn op segment 9 reikt tot het einde van de anale piramide;None;EPITHECA
+lepel_3;B;• Zijdoornen op abdomen normaal of klein; reiken niet tot het einde;lepel_4;None
+lepel_4;A;• Rugdoornen op het abdomen aanwezig en duidelijk zichtbaar;None;CORDULIA
+lepel_4;B;• Rugdoornen op het abdomen afwezig of gereduceerd tot gladde knobbeltjes;None;SOMATOCHLORA
+lepel_5;A;• Rugdoornen op het abdomen afwezig;lepel_6;None
+lepel_5;B;• Rugdoornen op het abdomen aanwezig;lepel_7;None
+lepel_6;A;• Geen zijdoornen aanwezig op de abdomen-segmenten 8 en 9;None;SOMATOCHLORA_ALT
+lepel_6;B;• Zijdoornen wel aanwezig op de abdomen-segmenten 8 en 9;None;OXYGASTRA
+lepel_7;A;• Rugdoorn aanwezig op abdomen-segment 7;None;LIBELLULA
+lepel_7;B;• Geen rugdoorn aanwezig op abdomen-segment 7;lepel_8;None
+lepel_8;A;• Ogen knopvormig en uitstekend; kop achter de ogen rechthoekig;None;ORTHETRUM
+lepel_8;B;• Ogen relatief groot; kop achter de ogen trapezioumvormig of afgerond;lepel_9;None
+lepel_9;A;• Ogen in frontaal aanzicht driehoekig; onderzijde abdomen met opvallende donkere lengtebanden;None;LEUCORRHINIA
+lepel_9;B;• Ogen in frontaal aanzicht ronder; onderzijde abdomen egaal of zonder donkere lengtebanden;lepel_10;None
+lepel_10;A;• Zijdoornen op segment 9 tamelijk lang (ruim langer dan de helft van het segment);lepel_11;None
+lepel_10;B;• Geen of zeer korte zijdoornen op de segmenten 8 en 9;lepel_12;None
+lepel_11;A;• Achterranden van de abdominale sternieten 7 en 8 met een rij fijne borstelhaartjes;None;SYMPETRUM
+lepel_11;B;• Achterranden van de abdominale sternieten 7 en 8 kaal, zonder rij borstelhaartjes;None;CROCORTHEMIS_ALT
+lepel_12;A;• Achterranden van de abdominale sternieten 7 en 8 kaal of met onregelmatige haartjes;None;SYMPETRUM_SHORT
+lepel_12;B;• Achterranden van de abdominale sternieten 7 en 8 met een dichte, gelijkmatige rij van fijne borstelhaartjes;None;CROCOTHEMIS
+zygoptera_start;A;• Vangmasker (prementum) met een diepe, ruitvormige of driehoekige uitsnijding in het midden;juffer_vlak_1;None
+zygoptera_start;B;• Vangmasker vooraan gesloten of met een minuscule ondiepe centrale inkeping;juffer_lepel_1;None
+juffer_vlak_1;A;• Eerste antennesegment erg lang (zo lang als de rest van de antenne samen);None;CALOPTERYX
+juffer_vlak_1;B;• Eerste antennesegment normaal, korter dan de overige segmenten samen;None;LESTES
+juffer_lepel_1;A;• Vangmasker duidelijk gesteeld (loopt smal toe naar de basis); achterhoofdshoeken hoekig;juffer_lepel_2;None
+juffer_lepel_1;B;• Vangmasker niet gesteeld (gelijkmatiger driehoekig); achterhoofdshoeken rond en glad;juffer_lepel_3;None
+juffer_lepel_2;A;• Kieuwbladen opvallend breed en aan het uiteinde plotseling afgerond met een klein puntje;None;SYMPECMA
+juffer_lepel_2;B;• Kieuwbladen smaller, geleidelijk spits toelopend in een scherpe punt;None;LESTES_ALT
+juffer_lepel_3;A;• Binnenrand van de labiale palp met grove, onregelmatige zaagtanden;juffer_lepel_4;None
+juffer_lepel_3;B;• Binnenrand van de labiale palp nagenoeg glad of met zeer fijne, regelmatige tandjes;juffer_lepel_5;None
+juffer_lepel_4;A;• Kieuwbladen met opvallende donkere dwarsbanden; zijranden met dichte borstels;None;ERYTHROMMA_MORF
+juffer_lepel_4;B;• Kieuwbladen zonder donkere dwarsbanden; lichte egale tekening;None;PYRRHOSOMA
+juffer_lepel_5;A;• Kieuwbladen kort en dik (minder dan 5x zo lang als breed), driehoekig in dwarsdoorsnede;None;PLATYCNEMIS
+juffer_lepel_5;B;• Kieuwbladen langer, duidelijk zijdelings afgeplat (bladvormig);juffer_lepel_6;None
+juffer_lepel_6;A;• Antenne met 6 segmenten;None;ERYTHROMMA
+juffer_lepel_6;B;• Antenne met 7 segmenten;juffer_lepel_7;None
+juffer_lepel_7;A;• Kieuwbladen aan het uiteinde stomp of afgerond; tracheeënpatroon vertakt;juffer_lepel_8;None
+juffer_lepel_7;B;• Kieuwbladen aan het uiteinde spits toelopend of in een punt eindigend;juffer_lepel_9;None
+juffer_lepel_8;A;• Labiale palp met 3 of 4 borstelharen; kieuwbladen met duidelijke donkere vlekken;None;CERCION
+juffer_lepel_8;B;• Labiale palp met 5 of meer borstelharen; kieuwbladen egaler van kleur;None;ERYTHROMMA_ALT
+juffer_lepel_9;A;• Kieuwbladen erg lang en smal (meer dan 6x zo lang als breed); abdomen zonder achterranddoorntjes;None;NEHALENNIA
+juffer_lepel_9;B;• Kieuwbladen korter; sternieten van het abdomen met rijen kleine doorntjes;juffer_lepel_10;None
+juffer_lepel_10;A;• Sternieten van abdomen met een dichte, doorlopende rij doorntjes langs de achterrand;None;COENAGRION_MORF
+juffer_lepel_10;B;• Sternieten van abdomen met een onderbroken rij of alleen plukjes doorntjes in de hoeken;juffer_lepel_11;None
+juffer_lepel_11;A;• Kieuwblad geleidelijk eindigend in een scherpe, symmetrische punt; tracheeën fijn vertakt;juffer_lepel_12;None
+juffer_lepel_11;B;• Kieuwblad abrupter eindigend in een fijne draadvormige punt; hoofdbuizen dik;juffer_lepel_13;None
+juffer_lepel_12;A;• Kleine doorntjes op de achterranden van sternieten 2 tot 6 aanwezig;None;ISCHNURA
+juffer_lepel_12;B;• Geen doorntjes aanwezig op de achterranden van de sternieten 2 tot 6;None;COENAGRION
+juffer_lepel_13;A;• Achterranden van abdominale sternieten 7 tot 9 met een opvallend dichte rij van borstelhaartjes;None;ENALLAGMA
+juffer_lepel_13;B;• Achterranden van abdominale sternieten 7 tot 9 nagenoeg kaal, hooguit enkele losse haartjes;None;COENAGRION_ALT

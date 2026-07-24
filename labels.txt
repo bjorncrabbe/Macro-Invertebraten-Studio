@@ -1,0 +1,11 @@
+0 Odonata
+1 Hirudinea
+2 Heteroptera/Coleoptera
+3 Ephemeroptera
+4 Platyhelminthes
+5 crustacea
+6 trichoptera
+7 molusca
+8 Diptera
+9 Naididae
+10 plecoptera

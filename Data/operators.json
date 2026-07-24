@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "last_operator": 1,
+    "operators": [
+        {
+            "id": 1,
+            "name": "Bjorn Crabbe",
+            "initials": "BC",
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Tom Janssens",
+            "initials": "TJ",
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "Sarah Peeters",
+            "initials": "SP",
+            "active": true
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
+stap_1;A;Habitus fors, achterlijf met doornige anaalpyramide;anisoptera;
+stap_1;B;Habitus lang slank, achterlijf met 3 platte langwerpige staartlamellen;zygoptera;
+anisoptera;A;Vangmasker vlak;vlak_1;
+anisoptera;B;Vangmasker 'bowl'vormig;bowl_1;
+vlak_1;A;Vangmasker met spleet, antenne fijn draadvormig;vlak_2;
+vlak_1;B;Vangmasker zonder spleet, antenne dik knotsvormig;vlak_3;
+vlak_2;A;Ogen klein knopvormig, korter dan lengte occiput;;BRACHYTRON
+vlak_2;B;Ogen groot, langer dan lengte occiput;vlak_2_ogen;
+vlak_2_ogen;A;Ogen bolvormig enigszins uitstulpend, hoofd ± hoekig;;AESHNA
+vlak_2_ogen;B;Ogen ovaalvormig niet uitstulpend, hoofd ± rond, kleine instars met opvallende donker/bleke tekening;;ANAX
+vlak_3;A;Rugknobbels zwak ontwikkeld of afwezig (meestal), einde labiale palp haakvormig en puntig;;GOMPHUS
+vlak_3;B;Rugknobbels goed ontwikkeld, einde labiale palp recht en stomp;vlak_3_doorn;
+vlak_3_doorn;A;Zijdoorn op segment 6;;ONYCHOGOMPHUS
+vlak_3_doorn;B;Geen zijdoorn op segment 6;;OPHIOGOMPHUS
+bowl_1;A;Vangmasker gepleten, rand van de labiale palpen met onregelmatig (diep) gezaagde 'tanden';;CORDULEGASTER
+bowl_1;B;Vangmasker niet gespleten, rand van de labiale palpen met regelmatige (ondiep) gezaagde 'tanden';bowl_2;
+bowl_2;A;Middengleuf aan de basis van het vangmasker;bowl_3;
+bowl_2;B;Geen middengleuf aan de basis van het vangmasker;bowl_7;
+bowl_3;A;2 doornen op occiput, zijdoornen op segment 9 reiken ± tot aan uiteinde anaalpyramide;;EPITHECA
+bowl_3;B;Geen doornen (of zeer klein) op occiput, zijdoornen segment 9 reiken nooit tot aan uiteinde anaalpyramide;bowl_4;
+bowl_4;A;Rugdoornen aanwezig;bowl_5;
+bowl_4;B;Geen rugdoornen aanwezig;bowl_6;
+bowl_5;A;Rugdoorn segment 9 ontbrekend of zwak ontwikkeld;;CORDULIA
+bowl_5;B;Rugdoorn segment 9 goed ontwikkeld;;SOMATOCHLORA
+bowl_6;A;Geen zijdoornen op segmenten 8 en 9;;SOMATOCHLORA
+bowl_6;B;Zijdoornen op segmenten 8 en 9;;OXYGASTRA
+bowl_7;A;Ogen knopvormig, kop rechthoekig;bowl_8;
+bowl_7;B;Ogen redelijk groot, kop trapeziumvormig;bowl_10;
+bowl_8;A;Rugdoorn op segment 7;;LIBELLULA
+bowl_8;B;Geen rugdoorn op segment 7;;ORTHETRUM
+bowl_10;A;Ogen in faciaal aanzicht driehoekig, enigszins dorsaal vlak. Onderzijde met (meestal) duidelijke donkere tekening;;LEUCORRHINIA
+bowl_10;B;Ogen in faciaal aanzicht ronder, nooit dorsaal vlak. Onderzijde zonder donkere tekening;bowl_11;
+bowl_11;A;Rugdoorn op segmenten 6 en 7 (soms klein);;SYMPETRUM
+bowl_11;B;Geen rugdoorn op segmenten 6 en 7;bowl_12;
+bowl_12;A;Achterrand sternieten 7 en 8 zonder rij borstelharen, mesosterniet <5 borstelharen;;SYMPETRUM
+bowl_12;B;Achterrand sternieten 7 en 8 met rij borstelharen, mesosterniet >5 borstelharen;;CROCOTHEMIS
+zygoptera;A;Vangmasker met ruitvormige opening, basisantennesegment langer dan andere segmenten samen;;CALOPTERYX
+zygoptera;B;Vangmasker zonder ruitvormige opening, basisantennesegment niet opvallend verlengd;zygoptera_1;
+zygoptera_1;A;Vangmasker gesteeld (randen hol);zygoptera_2;
+zygoptera_1;B;Vangmasker niet gesteeld (randen recht);zygoptera_5;
+zygoptera_2;A;Vangmasker met mediane lob voorzien van dunne spleet, distale rand met diepe insnijding;zygoptera_3;
+zygoptera_2;B;Vangmasker met mediane lob zonder dunne spleet, distale rand zonder diepe insnijding;zygoptera_5;
+zygoptera_3;A;Tandenrij op labiale palp met kleine onderste tand, vangmasker vrij lang;;LESTES
+zygoptera_3;B;Tandenrij op labiale palp met grote onderste tand, vangmasker korter;;SYMPECMA
+zygoptera_5;A;Staartlamellen kort én breed (druppelvormig), spits- tot draadvormig uitlopend met (meestal) opvallende donkere tekening, gedrongen habitus;zygoptera_6;
+zygoptera_5;B;Staartlamellen lang, enigszins evenwijdig of ellipsvormig verlopend, donkere tekening al dan niet aanwezig, slanker habitus;zygoptera_10;
+zygoptera_6;A;Staartlamellen niet uitlopend op een draadvormige spits, binnenzijde vangmasker met 1 of 2 paar lange setae en daartussen korte doorntjes, labiale palp met >5 setae en geen doorntjes;;CERIAGRION
+zygoptera_6;B;Staartlamellen uitlopend op een draadvormige spits, binnenzijde vangmasker met meestal 4 lange setae, labiale palp met 2-4 setae en vele doorntjes;zygoptera_7;
+zygoptera_7;A;Staartlamellen geleidelijk uitlopend op een draadvormige spits;;PLATYCNEMIS
+zygoptera_7;B;Staartlamellen al dan niet uitlopend in draadvormige spits, binnenzijde vangmasker ≥6 lange setae, labiale palp met >5 setae en geen doorntjes;;PYRRHOSOMA
+zygoptera_10;1;Prosternum met borstelharen;zygoptera_11;
+zygoptera_10;2;Prosternum zonder borstelharen;zygoptera_12;
+zygoptera_11;1a;Sterniet 2 met (soms onderbroken) rij borstelharen;;CERCION
+zygoptera_11;2a;Sterniet 2 zonder rij borstelharen;zygoptera_13;
+zygoptera_13;1;Antenne met 6 segmenten;;ERYTHROMMA
+zygoptera_13;2;Antenne met 7 segmenten;zygoptera_14;
+zygoptera_14;1;Tergiet 3 met dikke borstelharen langs achterrand;;CERCION
+zygoptera_14;2;Tergiet 3 zonder dikke borstelharen langs achterrand;;ERYTHROMMA
+zygoptera_12;1;Laatste instar <14 mm, geen borstelharen aanwezig achter oog;;NEHALENNIA
+zygoptera_12;2;Laatste instar >14 mm, borstelharen aanwezig achter oog;zygoptera_15;
+zygoptera_15;1;Randen van achterste deel van de staartlamellen verdikt;;COENAGRION
+zygoptera_15;2;Randen van achterste deel van de staartlamellen niet verdikt;zygoptera_16;
+zygoptera_16;1;Staartlamellen bezet met doorntjes van aan de basis tot de top;zygoptera_17;
+zygoptera_16;2;Doorntjes op de staartlamellen lopen niet door tot in de top;zygoptera_18;
+zygoptera_17;1;Staartlamellen geleidelijk eindigend in een (lange) punt, doornrij ene zijde dubbel zo lang als de andere;;ISCHNURA
+zygoptera_17;2;Staartlamellen niet of vrij abrupt eindigend in een punt, doornrijen minder verschillend in lengte;zygoptera_18;
+zygoptera_18;1;Kleine doorn aan basis voorste borstelharen op labiale palp;;ENALLAGMA
+zygoptera_18;2;Geen doorn aan basis voorste borstelharen op labiale palp;;COENAGRION

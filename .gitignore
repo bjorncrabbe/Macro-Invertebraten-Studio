@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv1/
+venv/
+env/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Secrets / local configuration
+.env
+.env.*
