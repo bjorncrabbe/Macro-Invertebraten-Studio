@@ -13,6 +13,8 @@ from config import DETERMINATION_PATH
 
 class DeterminationEngine:
 
+    LOAD_PREFIX = "LOAD:"
+
     def __init__(self):
 
         self.database = {}
@@ -87,12 +89,24 @@ class DeterminationEngine:
 
         keuze = options[option]
 
+        # Resultaat bereikt
         if keuze["result"] is not None:
 
+            # Andere determinatiesleutel laden
+            if keuze["result"].startswith(self.LOAD_PREFIX):
+
+                key_name = keuze["result"][len(self.LOAD_PREFIX):]
+
+                self.load(key_name)
+
+                return False
+
+            # Eindresultaat (familie)
             self.result = keuze["result"]
 
             return True
 
+        # Naar volgende stap
         self.current_step = keuze["next"]
 
         return False
