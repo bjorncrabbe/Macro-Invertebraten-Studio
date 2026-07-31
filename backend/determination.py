@@ -110,6 +110,17 @@ class DeterminationEngine:
         """Controleer of de determinatie voltooid is."""
 
         return self.result is not None
+
+    def available_keys(self):
+        """Geeft alle beschikbare determinatiesleutels terug."""
+
+        keys = []
+
+        for file in os.listdir(DETERMINATION_PATH):
+            if file.lower().endswith(".csv"):
+                keys.append(os.path.splitext(file)[0])
+
+        return sorted(keys)
 if __name__ == "__main__":
 
     engine = DeterminationEngine()

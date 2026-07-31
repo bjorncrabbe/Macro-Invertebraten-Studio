@@ -137,3 +137,9 @@ class AppController:
     def get_total_count(self):
 
         return self.counter.get_total()
+
+    def get_available_keys(self):
+        return self.key.available_keys()
+
+    def get_ai_labels(self):
+        return self.ai.get_labels()

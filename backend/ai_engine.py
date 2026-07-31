@@ -142,3 +142,7 @@ class AIEngine:
         average = sum(values) / len(values)
 
         return winner, average
+
+    def get_labels(self):
+        """Geeft alle AI-labels terug."""
+        return set(self.labels)

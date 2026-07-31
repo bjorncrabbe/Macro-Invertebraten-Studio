@@ -178,16 +178,31 @@ class MacroStudio(QMainWindow):
          if confidence < 90:
              return
 
+         # Alleen verder bij voldoende zekerheid
+         if confidence < 90:
+             return
+
          key_name = label.lower()
+
+         # Controleer of er een sleutel bestaat
+         available = [
+             key.lower()
+             for key in self.controller.get_available_keys()
+         ]
+
+         if key_name not in available:
+             self.side_panel.set_result(
+                 "⚠ Geen determinatiesleutel beschikbaar."
+             )
+             return
 
          # Alleen laden als de sleutel verandert
          if key_name != self.current_key:
+             self.controller.load_key(key_name)
 
-             if self.controller.load_key(key_name):
+             self.current_key = key_name
 
-                 self.current_key = key_name
-
-                 self.update_key_panel()
+             self.update_key_panel()
 
 
     def update_key_panel(self):
