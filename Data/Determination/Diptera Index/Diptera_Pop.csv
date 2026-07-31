@@ -1,0 +1,45 @@
+ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
+stap_1;A;Pootscheden of andere structuren al of niet zichtbaar door een (meestal bruinachtige) allesomvattende chitinehuid (volledig ingesloten). Dus niet als losse aanhangende structuren;stap_2;
+stap_1;B;Uiteinde van alle pootscheden gebogen, uiteinde van het achterlijf met (soms  zwak ontwikkelde) zwemplaten;stap_3;
+stap_1;C;Uiteinde van (minstens) de voorpootscheden recht, geen zwemplaten;stap_6;
+stap_2;A;Lang peervormig donkerbruin, met 4 enigszins haakvormige aanhangsels op smalste uiteinde;Muscidae;
+stap_2;B;Achterlijf met enkelvoudige, meestal lange adembuis en uitstekende hoorntjes op kopgedeelte;Syrphidae-eristalinae,
+stap_2;C;Achterlijf eindigt in duidelijk V-vormige structuur;Ephydridae;
+stap_2;D;Achterlijf (niet duidelijk) V-vormig, habitus enigszins bootvormig met 2 stigmata;Sciomyzidae;
+stap_2;F;???;Stratiomyidae
+stap_3;A;Zwemplaten goed ontwikkeld, aan de aanhechtingsplaats ingesnoerd en voorzien van ribben;stap_4;
+stap_3;B;Zwemplaten (meestal) goed ontwikkeld, breed vergroeid met het achterlijf en deze zijn niet geribd;stap_5;
+stap_4;A;Ademhalingshoorntjes met verbreed uiteinde, lange steeksnuit zichtbaar;Culicidae;
+stap_4;B;Ademhalingshoorntjes versmallend naar de top, geen steeksnuit zichtbaar;Chaoboridae;
+stap_5;A;Ademhalingshoorntjes enkelvoudig tot sterk vertakt, geen gekielde richels op achterlijf;Chironomidae;
+stap_5;B;Ademhalingshoorntjes altijd enkelvoudig trechtervormig, achterlijf met scherp gekielde richels;Dixidae;
+stap_6;A;Ademhalingshoorntjes samengesteld;stap_7;
+stap_6;B;Ademhalingshoorntjes enkelvoudig of afwezig;stap_9;
+stap_7;A;Pootscheden kort, reiken nauwelijks voorbij vleugelscheden. Buidel-/schedevormig kokertje;Simulidae;
+stap_7;B;Pootscheden opvallend langer dan vleugelscheden, geen kokertje;stap_8;
+stap_8;A;Ademhalingshoorntjes zijn vier vlakke, op elkaar liggende 'blaadjes', buikzijde afgevlakt;Blephariceridae;
+stap_8;B;Ademhalingshoorntjes gevingerd, lichaam niet afgevlakt;Limoniidae;
+stap_9;A;Pootscheden duidelijk langer dan vleugelscheden en naast elkaar gelegen en (omzeggens) recht;stap_10;
+stap_9;B;Pootscheden niet of nauwelijks langer dan vleugelscheden en/of pootscheden liggen op elkaar en/of uiteinde achterpootscheden is niet recht;stap_13;
+stap_10;A;Ademhalingshoorntjes indien aanwezig even lang, doorntjes meestal aanwezig maar achterlijf nooit dichtbezet;stap_11;
+stap_10;B;Ademhalingshoorntjes van verschillende lengte (breekbaar!)      1 zeer lang en 1 kort, achterlijf dichtbezet met rijen korte doorntjes;Ptychopteridae;
+stap_11;A;Palpscheden recht of gebogen, nooit haakvormig;stap_12;
+stap_11;B;Palpscheden teruggeplooid, haakvormig;Tipulidae;
+stap_12;A;Achterlijf hoogstens met korte doornen;Limoniidae;
+stap_12;B;Lange stekelvormige uitgroeiingen op achterlijf;Cylindrotomidae;
+stap_13;A;Lange antennescheden, ze volgen voor een stukje de poot- en vleugelscheden;stap_14;
+stap_13;B;Korte antennescheden, ze reiken niet tot de poot- of vleugelscheden;stap_15;
+stap_14;A;Uiteinde achterpoten gekromd langs de vleugelrand;Ceratopogonidae;
+stap_14;B;Uiteinde achterpoten recht;Psychodidae;
+stap_15;A;Ademhalingshoorntjes goed ontwikkeld, duidelijk langer dan breed;stap_16;
+stap_15;B;Geen ademhalingshoorntjes of deze zwak ontwikkeld;stap_18;
+stap_16;A;Ademhalingshoorntjes stomp;Thaumaleidae;
+stap_16;B;Ademhalingshoorntjes spits;stap_17;
+stap_17;A;Achterlijf zonder ademhalingshoorntjes;Dolichopodidae;
+stap_17;B;Achterlijf met ademhalingshoorntjes;Empididae;
+stap_18;A;Achterpoten reiken verder dan de vleugelscheden;Empididae;
+stap_18;B;Achterpoten reiken (bijna) niet verder dan de vleugelscheden;stap_19;
+Stap_19;A;Achterlijfsegmenten met opvallende uitgroeiingen;Athericidae;
+stap_19;B;Achterlijfsegmenten zonder opvallende uitgroeiingen;stap_20;
+stap_20;A;Instulpingen op borststuk nabij de ademhalingshoorntjes;Tabanidae;
+stap_20;B;Geen instulpingen op borststuk nabij de ademhalingshoorntjes;Rhagionidae;

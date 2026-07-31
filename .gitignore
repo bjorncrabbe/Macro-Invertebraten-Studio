@@ -34,3 +34,6 @@ Thumbs.db
 # Secrets / local configuration
 .env
 .env.*
+Data/*
+!Data/Determination/
+!Data/Determination/**
