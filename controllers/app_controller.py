@@ -61,14 +61,12 @@ class AppController:
     # Determinatiesleutel
     # ==================================================
 
-    def load_key(self, key_name: str):
-        try:
-            self.key.load(key_name)
-            return True
+    def load_key(self, key_name):
 
-        except FileNotFoundError:
-            print(f"Geen determinatiesleutel gevonden voor {key_name}")
-            return False
+        print(f"AppController.load_key({key_name})")
+
+        self.key.load(key_name)
+        return True
 
     def get_options(self):
         return self.key.get_options()

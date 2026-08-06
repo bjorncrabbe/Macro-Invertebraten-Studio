@@ -10,7 +10,8 @@ import os
 
 from config import DETERMINATION_PATH
 
-
+print(f"DeterminationEngine.load({key_name})")
+print(path)
 class DeterminationEngine:
 
     LOAD_PREFIX = "LOAD:"

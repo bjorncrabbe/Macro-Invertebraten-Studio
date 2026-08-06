@@ -164,7 +164,9 @@ class MacroStudio(QMainWindow):
 
          # AI voorspelling
          label, confidence = self.controller.predict(frame)
-
+         print("=" * 40)
+         print("AI label:", label)
+         print("Confidence:", confidence)
          if label is None:
              return
 
@@ -178,9 +180,6 @@ class MacroStudio(QMainWindow):
          if confidence < 90:
              return
 
-         # Alleen verder bij voldoende zekerheid
-         if confidence < 90:
-             return
 
          key_name = label.lower()
 
@@ -195,13 +194,19 @@ class MacroStudio(QMainWindow):
                  "⚠ Geen determinatiesleutel beschikbaar."
              )
              return
-
+         print(f"AI={label} | key={key_name} | current={self.current_key}")
          # Alleen laden als de sleutel verandert
          if key_name != self.current_key:
-             self.controller.load_key(key_name)
+             print("Key name:", key_name)
+             print("Available:", self.controller.get_available_keys())
+             print("Nieuwe sleutel laden")
+             if not self.controller.load_key(key_name):
+                 self.side_panel.set_result(
+                     "⚠ Geen determinatiesleutel beschikbaar."
+                 )
+                 return
 
              self.current_key = key_name
-
              self.update_key_panel()
 
 
