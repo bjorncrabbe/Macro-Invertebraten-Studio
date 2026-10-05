@@ -1,10 +1,3 @@
-1a. Kop met twee vingervormige uitgroeiingen en twee duidelijke haarborstels.
-    → AMPHARETIDAE
-
-1b. Kop zonder vingervormige uitgroeiingen of duidelijke haarborstels; achterlijf met een pluimvormige tentakelkrans.
-    → SABELLIDAE
-
-
-
-
-
+ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
+stap_1;A;kopgedeelte met opvallende vingervormige uitgroeiingen en 2 duidelijke haarborstels; Ampharetidae;
+stap_1;B;geen uitgroeiingen of duidelijke haarborstels op kopgedeelte maar wel pluimvormige uitgroeiingen in kransvorm op het achterlijf; sabellidae;

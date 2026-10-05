@@ -33,6 +33,7 @@ class AppController:
         self.sample = SampleManager()
         self.operators = OperatorManager()
 
+
     # ==================================================
     # Camera
     # ==================================================
@@ -138,6 +139,7 @@ class AppController:
 
     def get_available_keys(self):
         return self.key.available_keys()
-
+    def get_key_variants(self, key_name):
+        return self.key.get_key_variants(key_name)
     def get_ai_labels(self):
         return self.ai.get_labels()

@@ -17,27 +17,39 @@ class DeterminationEngine:
 
     def load(self, key_name):
 
-        path = os.path.join(
-            DETERMINATION_PATH,
-            f"{key_name}.csv"
-        )
+        path = None
 
-        if not os.path.exists(path):
+        # Zoek de sleutel in de determination-map
+        for root, dirs, files in os.walk(DETERMINATION_PATH):
+
+            for file in files:
+
+                if file.lower() == f"{key_name.lower()}.csv":
+                    path = os.path.join(root, file)
+                    break
+
+            if path is not None:
+                break
+
+        if path is None:
             raise FileNotFoundError(
-                f"Sleutelbestand niet gevonden: {path}"
+                f"Sleutelbestand niet gevonden: {key_name}.csv"
             )
 
         self.database.clear()
-
         self.current_step = "stap_1"
         self.result = None
+
         with open(
                 path,
                 newline="",
                 encoding="utf-8-sig"
         ) as file:
 
-            reader = csv.DictReader(file, delimiter=";")
+            reader = csv.DictReader(
+                file,
+                delimiter=";"
+            )
 
             for row in reader:
 
@@ -116,11 +128,38 @@ class DeterminationEngine:
 
         keys = []
 
-        for file in os.listdir(DETERMINATION_PATH):
-            if file.lower().endswith(".csv"):
-                keys.append(os.path.splitext(file)[0])
+        for root, dirs, files in os.walk(DETERMINATION_PATH):
+
+            for file in files:
+
+                if file.lower().endswith(".csv"):
+                    key_name = os.path.splitext(file)[0]
+
+                    keys.append(key_name)
 
         return sorted(keys)
+
+    def get_key_variants(self, key_name):
+        """Geeft de beschikbare varianten van een determinatiesleutel terug."""
+
+        variants = []
+
+        prefix = key_name.lower() + "_"
+
+        for key in self.available_keys():
+
+            if key.lower().startswith(prefix):
+                variant = key[len(key_name) + 1:]
+
+                variants.append({
+                    "key": key,
+                    "stage": variant
+                })
+
+        return sorted(
+            variants,
+            key=lambda x: x["stage"].lower()
+        )
 if __name__ == "__main__":
 
     engine = DeterminationEngine()

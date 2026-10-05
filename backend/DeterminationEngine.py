@@ -10,8 +10,6 @@ import os
 
 from config import DETERMINATION_PATH
 
-print(f"DeterminationEngine.load({key_name})")
-print(path)
 class DeterminationEngine:
 
     LOAD_PREFIX = "LOAD:"
@@ -124,3 +122,9 @@ class DeterminationEngine:
     def is_finished(self):
 
         return self.result is not None
+
+    def available_keys(self):
+
+        print("!!! AVAILABLE_KEYS WORDT UITGEVOERD !!!")
+
+        return ["TEST"]

@@ -182,7 +182,7 @@ class MacroStudio(QMainWindow):
 
 
          key_name = label.lower()
-
+         print("VARIANTEN:", self.controller.get_key_variants(label))
          # Controleer of er een sleutel bestaat
          available = [
              key.lower()
@@ -208,6 +208,8 @@ class MacroStudio(QMainWindow):
 
              self.current_key = key_name
              self.update_key_panel()
+         print("AI LABELS:")
+         print(sorted(self.controller.get_ai_labels()))
 
 
     def update_key_panel(self):
