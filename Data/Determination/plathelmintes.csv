@@ -1,13 +1,13 @@
 ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
 stap_1;A;Vele ogen;stap_2;
 stap_1;B;Maximaal 6 ogen (meestal 2);stap_3;
-stap_2;A;Ogen langs/op de rand van de kop, regelmatig ook op de zijkant;;POLYCELIS
-stap_2;B;Ogen op enige afstand van voor- en zijrand, V-vormig;;DENDROCOELUM
+stap_2;A;Ogen langs/op de rand van de kop, regelmatig ook op de zijkant;;POLYCELIS;
+stap_2;B;Ogen op enige afstand van voor- en zijrand, V-vormig;;DENDROCOELUM;
 stap_3;A;Witachtige grondkleur (soms grijs/roze);stap_4;
 stap_3;B;Bruine, grijze of zwarte rugzijde;stap_5;
-stap_4;A;Ogen ver uiteen aan voorhoofd, vaak zichtbaar;;DENDROCOELUM
-stap_4;B;Meestal melkwit, ogen centraal dicht bijeen;;PHAGOCATA
-stap_5;A;Kop duidelijk smaller dan lichaam;;BDELLOCEPHALA
-stap_5;B;Kop met spitse oortjes, vaak grijze kleur;;CRENOBIA
-stap_5;C;Ogen centraal, hoofd rechthoekig;;PLANARIA
-stap_5;D;Kop 3-hoekig/afgerond, buikzijde lichter;;DUGESIA
+stap_4;A;Ogen ver uiteen aan voorhoofd, vaak zichtbaar;;DENDROCOELUM;
+stap_4;B;Meestal melkwit, ogen centraal dicht bijeen;;PHAGOCATA;
+stap_5;A;Kop duidelijk smaller dan lichaam;;BDELLOCEPHALA;
+stap_5;B;Kop met spitse oortjes, vaak grijze kleur;;CRENOBIA;
+stap_5;C;Ogen centraal, hoofd rechthoekig;;PLANARIA;
+stap_5;D;Kop 3-hoekig/afgerond, buikzijde lichter;;DUGESIA;

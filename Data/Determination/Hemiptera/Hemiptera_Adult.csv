@@ -1,8 +1,8 @@
 ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
 stap_1;A;Achterlijf voorzien van (lange) adembuis;stap_2;
 stap_1;B; achterlijf zonder ademhalingsbuis;stap_3;
-stap_2;A;Lichaam breed, plat druppelvormig;Nepa;
-stap_2;B;Lichaam smal, lang staafvormig;Ranatra;
+stap_2;A;Lichaam breed, plat druppelvormig;;Nepa;
+stap_2;B;Lichaam smal, lang staafvormig;;Ranatra;
 stap_3;A;minstens de achterpoten( lang) behaard(zwempoten), antennes korter dan de kop ( meestal niet onmiddelijk zichtbaar);stap_4;
 stap_3;B;geen (lang) behaarde (achter)poten,antennes zichtbaar en duidelijk langer dan de kop;stap_18;
 stap_4;A;Kop met duidelijke afgetekende steeksnuit ventraal onder de kop,voortars(sen) 1 tot 3-delig korter dan de tibia;stap_5;
@@ -10,38 +10,38 @@ stap_4;B;Kop met niet duidelijk afgetekende steeksnuit ( breed driehoekig, aansl
 stap_5;A;Rugzijde afgevlakt, lichaam breder dan hoog in doorsnede elipsvormig;stap_6;
 stap_5;B;Rugzijde niet vlak, lichaam ongeveer even breed dan hoog in doorsnede driehoekig;stap_8;
 stap_6;A;Kop breder dan lang , steeksnuit rijkt niet verder dan de basis van de voorpoten,voorpoten met sterk verbrede femuren;stap_7;
-stap_6;B;Kop even breed dan lang, steeksnuit rijkt tot aan de basis van de middenpoten, voorfemuren niet verbreed; Aphelocheirus;
-stap_7;A;voorfemur duidelijk sterk verbreed langs binnenzijde, solide V-vormige vlek temidden op het halsschild net achter de kop , bij adulten vlekkerige eindband zonder puntige uitloper aan de basis van het halsschild; Naucoris.
-stap_7;B;Voorfemur duidelijk minder verbreed langs binnenzijde, geen solide V-vormige vlek temidden op het halsschild net achter de kop, bij adulten solide eindband met puntige uitloper aan de basis van het halsschild;Ilyocoris;
-stap_8;A;Dekvleugels met ingedrukte donkere stippen, imago ≤3mm; Plea;
-stap_8;B;geen donkere ingedrukte stippen op dekvleugels, imago ≤13mm;notonecta;
-stap_9;A;scuttelum zichtbaar;Micronecta;
+stap_6;B;Kop even breed dan lang, steeksnuit rijkt tot aan de basis van de middenpoten, voorfemuren niet verbreed; ;Aphelocheirus;
+stap_7;A;voorfemur duidelijk sterk verbreed langs binnenzijde, solide V-vormige vlek temidden op het halsschild net achter de kop , bij adulten vlekkerige eindband zonder puntige uitloper aan de basis van het halsschild; ;Naucoris.
+stap_7;B;Voorfemur duidelijk minder verbreed langs binnenzijde, geen solide V-vormige vlek temidden op het halsschild net achter de kop, bij adulten solide eindband met puntige uitloper aan de basis van het halsschild;;Ilyocoris;
+stap_8;A;Dekvleugels met ingedrukte donkere stippen, imago ≤3mm; ;Plea;
+stap_8;B;geen donkere ingedrukte stippen op dekvleugels, imago ≤13mm;;notonecta;
+stap_9;A;scuttelum zichtbaar;;Micronecta;
 stap_9;B;scuttelum niet zichtbaar; stap_10;
-stap_10;A;voortarsen(pala) cylindrisch, snuit zonder dwarsgroeven;Cymatia;
+stap_10;A;voortarsen(pala) cylindrisch, snuit zonder dwarsgroeven;;Cymatia;
 stap_10;B;Voortarsen (pala) verbreed zijdelings afgeplat, snuit met dwarsgroeven;stap_11;
 stap_11;A;snuit en aangezicht bedekt met lange dense haren,lengtenaad/kiel op halsschild lang;stap_12;
 stap_11;B;snuit en aangezicht niet of weinig behaard, geen of korte lengtenaad/kiel op halsschild;stap_13;
-stap_12;A;ogen enigszins uitpuilend, pijlpunt met rechte zijden;Glaenocorisa;
-stap_12;B;Geen uitpuilende ogen, pijlpunt met uitgeholde zijden;Arctocorisa;
+stap_12;A;ogen enigszins uitpuilend, pijlpunt met rechte zijden;;Glaenocorisa;
+stap_12;B;Geen uitpuilende ogen, pijlpunt met uitgeholde zijden;;Arctocorisa;
 stap_13;A;Zwarte vlekken op de laatste leden van de achterpoten;stap_14;
 stap_13;B;geen zwarte vlekken op de laatste leden van de achterpoten(opgelet voor de donkere haarzoom!); stap_16;
-stap_14;A;Zwarte vlek enkel op het voorlaatste lid van achterpoten;Callicorixa;
+stap_14;A;Zwarte vlek enkel op het voorlaatste lid van achterpoten;;Callicorixa;
 stap_14;B;zwarte vlek op het voorlaatste en laatste lid van de achterpoten;stap_15;
-stap_15;A; Laatste voetlid van de achterpoot volledig donker;Sigara (Lateralis);
-stap_15;B; Laatste voetlid van de achterpoot met slechts kleine donkere vlek;Paracorixa;
-stap_16;A;Gele tekening op de dekschilden bestaat ( voornamelijk) uit vlekjes;Corixa;
+stap_15;A; Laatste voetlid van de achterpoot volledig donker;;Sigara (Lateralis);
+stap_15;B; Laatste voetlid van de achterpoot met slechts kleine donkere vlek;;Paracorixa;
+stap_16;A;Gele tekening op de dekschilden bestaat ( voornamelijk) uit vlekjes;;Corixa;
 stap_16;B;Gele tekening op de dekschilden bestaat uit dwarse bandjes;stap_17;
-stap_17;A;Gele bandjes breed en/of opvallend, contrastrijke tekening op de dekvleugels, pijlpunt meestal kort (even lang dan breed);Sigara;
-stap_17;B; Gele bandjes smal en weinig opvallend, weinig contrastrijke tekening op de dekvleugels, pijlpunt altijd(!) langer dan breed; Hesperocorixa;
-stap_18;A;kop >4maal zo lang als breed, gans lichaam naaldvormig; hydrometra;
+stap_17;A;Gele bandjes breed en/of opvallend, contrastrijke tekening op de dekvleugels, pijlpunt meestal kort (even lang dan breed);;Sigara;
+stap_17;B; Gele bandjes smal en weinig opvallend, weinig contrastrijke tekening op de dekvleugels, pijlpunt altijd(!) langer dan breed; ;Hesperocorixa;
+stap_18;A;kop >4maal zo lang als breed, gans lichaam naaldvormig; ;hydrometra;
 stap_18;B;Kop <4maal zo lang als breed, en ook breder lichaam;stap_19;
-stap_19;A;poten mediaan ingeplant, coxa achterpoten raken elkaar (of bijna);Mesovelia;
+stap_19;A;poten mediaan ingeplant, coxa achterpoten raken elkaar (of bijna);;Mesovelia;
 stap_19;B;Poten meer lateraal ingeplant , coxa achterpoten raken mekaar nooit;stap_20;
-stap_20;A;Antennen 5-ledig, 3 laatse antennelidjes duidelijk smaller dan het basispaar, ogen met sterk gebolde facetten(braambesachtig);Hebrus;
+stap_20;A;Antennen 5-ledig, 3 laatse antennelidjes duidelijk smaller dan het basispaar, ogen met sterk gebolde facetten(braambesachtig);;Hebrus;
 stap_20;B;Antennen 4-ledig, antennelidjes allen van +- dezelfde dikte, ogen gladder van structuur;stap_21;
-stap_21;A; afstand tussen inplanting midden- en voorpoten veel groter dan de afstand tussen midden-en de achterpoten;Gerris;
+stap_21;A; afstand tussen inplanting midden- en voorpoten veel groter dan de afstand tussen midden-en de achterpoten;;Gerris;
 stap_21;B;Afstand tussen inplanting midden,voor- en achterpoten ongeveer even groot;stap_22;
-stap_22;A;<2.5mm, Habitus gedrongen ovaal, microptere vorm (meest voorkomend)met oranje (soms onderbroken) band op halsschild;Microvelia;
-stap_22;B;>2.5mm, Habitus langgerekt elips, oranje vlekken lateraal op het achterlijf;Velia
+stap_22;A;<2.5mm, Habitus gedrongen ovaal, microptere vorm (meest voorkomend)met oranje (soms onderbroken) band op halsschild;;Microvelia;
+stap_22;B;>2.5mm, Habitus langgerekt elips, oranje vlekken lateraal op het achterlijf;;Velia
 
 

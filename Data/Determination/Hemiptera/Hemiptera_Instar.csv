@@ -1,16 +1,16 @@
 ID;OPTIE;TEKST;VOLGENDE;RESULTAAT
-stap_1;A;Achterlijf met 3 grote duidelijke klieren,instar niet behaard;Micronecta;
+stap_1;A;Achterlijf met 3 grote duidelijke klieren,instar niet behaard;;Micronecta;
 stap_1;B;Achterlijf met 2 of 3 kleide onduidelijke klieren, instar met soms behaard borststuk;stap_2;
 stap_2;A;Geen beharing dorsaal op borstsegmenten;stap_3;
 stap_2;B;Middelste -en achterste borstsegment dorsaal minstens gedeeltelijk behaard;stap_4;
-stap_3;A;Palae kort ,driehoekig in doorsnede en breder dan voorlaatste voetlid;Corixidae(niet /zeer moeilijk determineerbaar);
-stap_3;B;Palea lang en gelijkmatig rond in doorsnede en naar uiteinde gelijdelijk versmallend en smaller dan voorlaatste voetlid;Cymatia;
-stap_4;A;Palea lang, gelijkmatig rond in doorsnede en naar uiteinde gelijdelijk versmallend en smaller dan voorlaatste voetlid;Cymatia;
+stap_3;A;Palae kort ,driehoekig in doorsnede en breder dan voorlaatste voetlid;;Corixidae(niet /zeer moeilijk determineerbaar);
+stap_3;B;Palea lang en gelijkmatig rond in doorsnede en naar uiteinde gelijdelijk versmallend en smaller dan voorlaatste voetlid;;Cymatia;
+stap_4;A;Palea lang, gelijkmatig rond in doorsnede en naar uiteinde gelijdelijk versmallend en smaller dan voorlaatste voetlid;;Cymatia;
 stap_4;B;Palea kort, driehoekig in doorsnede en breder dan voorlaatste voetlid;stap_5;
-stap_5;A; Habitus opvallend breed;Corixa;
+stap_5;A; Habitus opvallend breed;;Corixa;
 stap_5;B;Habitus niet opvallend breed;stap_6;
-stap_6;A;Ogen uitpuilend;Glaenocorisa;
+stap_6;A;Ogen uitpuilend;;Glaenocorisa;
 stap_6;B;Ogen niet uitpuilend;stap_7;
-stap_7;A; Voorvleugel tot +- halverwege achtervleugel; instar III P.79 (boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
-stap_7;B;Achtervleugel reikt tot 2e achterlijfsegment; instar IV p.82(boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
-stap_7;C;Achtervleugel reikt tot 3e achterlijfsegment;Instar V p.86(boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
+stap_7;A; Voorvleugel tot +- halverwege achtervleugel; ;instar III P.79 (boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
+stap_7;B;Achtervleugel reikt tot 2e achterlijfsegment; ;instar IV p.82(boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
+stap_7;C;Achtervleugel reikt tot 3e achterlijfsegment;;Instar V p.86(boek water en oppervlaktewantsen van nederland van David Tempelman en Tom van haaren);
